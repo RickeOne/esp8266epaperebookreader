@@ -13,4 +13,6 @@
 [![Github All Releases](https://img.shields.io/github/downloads/elbosso/esp8266epaperebookreader/total.svg)](https://github.com/elbosso/esp8266epaperebookreader)
 [![Website elbosso.github.io](https://img.shields.io/website-up-down-green-red/https/elbosso.github.io.svg)](https://elbosso.github.io/)
 
-
+## big picture
+The code here trusts that there is a web server accessible using HTTP 1.0 requests for getting image files in the format PBM.
+The code is binary/ascii agnostic as far as the images are concerned, so both types (P1 and P4) are valid and accepted
